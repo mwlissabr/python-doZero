@@ -15,7 +15,8 @@ else:
 print('Utilizando for para imprimir a contagem de 1 até 10')
 for condicao1 in range(1,11):
     print(f'{condicao1} ', end='')
-print()
+print() # tive que colocar um print no final pois ele não estava quebrando 
+# a linha sozinho
 
 
 numero1 = 1
